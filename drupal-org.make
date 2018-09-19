@@ -14,13 +14,13 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_select][version] = "1.5"
 projects[admin_select][subdir] = "contrib"
 
-projects[auto_entitylabel][version] = "1.x-dev"
+projects[auto_entitylabel][version] = "1.4"
 projects[auto_entitylabel][subdir] = "contrib"
 
 projects[autosave][version] = "2.2"
 projects[autosave][subdir] = "contrib"
 
-projects[backup_migrate][version] = "2.7"
+projects[backup_migrate][version] = "3.5"
 projects[backup_migrate][subdir] = "contrib"
 
 projects[biblio][version] = "1.0-rc7"
@@ -33,17 +33,18 @@ projects[biblio][patch][] = "http://drupal.org/files/issues/biblio_crossref_GET_
 projects[captcha][version] = "1.3"
 projects[captcha][subdir] = "contrib"
 
-projects[ctools][version] = "1.9"
+projects[ctools][version] = "1.14"
 projects[ctools][subdir] = "contrib"
 
 projects[context][version] = "3.6"
 projects[context][subdir] = "contrib"
 
-projects[chosen][version] = "2.0-beta4"
+projects[chosen][version] = "2.1"
 projects[chosen][subdir] = "contrib"
 ; Add support for the koenpunt fork of Chosen with supports adding options
 ; @see https://drupal.org/node/2012900
-projects[chosen][patch][] = "http://drupal.org/files/issues/2012900-chosen-select-or-other_1.patch"
+;not for the latest version- jiml
+;projects[chosen][patch][] = "http://drupal.org/files/issues/2012900-chosen-select-or-other_1.patch"
 
 projects[custom_breadcrumbs][version] = "2.0-beta1"
 projects[custom_breadcrumbs][subdir] = "contrib"
@@ -57,20 +58,20 @@ projects[datatables][patch][] = "http://drupal.org/files/2021741-installation-bl
 ; @see https://drupal.org/node/1904140#comment-7724631
 projects[datatables][patch][] = "http://drupal.org/files/1904140-datatables-fix-errors-when-headers-are-strings.patch"
 
-projects[date][version] = "2.9"
+projects[date][version] = "2.10"
 projects[date][subdir] = "contrib"
 
-projects[date_facets][version] = "1.x-dev"
+projects[date_facets][version] = "1.0"
 projects[date_facets][subdir] = "contrib"
 
 ; Dev relese is ok here.
 projects[devel][version] = "1.x-dev"
 projects[devel][subdir] = "contrib"
 
-projects[diff][version] = "3.2"
+projects[diff][version] = "3.3"
 projects[diff][subdir] = "contrib"
 
-projects[ds][version] = "2.11"
+projects[ds][version] = "2.16"
 projects[ds][subdir] = "contrib"
 
 projects[eck][version] = "2.0-rc2"
@@ -82,7 +83,7 @@ projects[eck][patch][] = "http://drupal.org/files/1969394-eck-entity-access-alte
 ; @see https://drupal.org/node/1979686
 projects[eck][patch][] = "http://drupal.org/files/1979686-eck-ief-clone-button.patch"
 
-projects[elements][version] = "1.x-dev"
+projects[elements][version] = " "1.4+2-dev"
 projects[elements][subdir] = "contrib"
 
 projects[email][version] = "1.3"
@@ -106,10 +107,10 @@ projects[entity_view_mode][subdir] = "contrib"
 projects[extlink][version] = "1.18"
 projects[extlink][subdir] = "contrib"
 
-projects[facetapi][version] = "1.3"
+projects[facetapi][version] = "1.5"
 projects[facetapi][subdir] = "contrib"
 
-projects[features][version] = "1.x-dev"
+projects[features][version] = "2.10"
 projects[features][subdir] = "contrib"
 
 projects[field_permissions][version] = "1.0-beta2"
@@ -125,14 +126,14 @@ projects[file_download_count][version] = "1.0-rc1"
 projects[file_download_count][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[file_entity][version] = "2.x-dev"
+projects[file_entity][version] = "2.12"
 projects[file_entity][subdir] = "contrib"
 
 projects[filefield_sources][version] = "1.11"
 projects[filefield_sources][subdir] = "contrib"
 ; Show the actual attach upload path using drupal_realpath()
 ; @see https://drupal.org/node/2033269
-projects[filefield_sources][patch][] = "http://drupal.org/files/2033269-attach-realpath.patch"
+;projects[filefield_sources][patch][] = "http://drupal.org/files/2033269-attach-realpath.patch"
 
 ; @todo Change to 1.3 release when available.
 projects[field_group][version] = "1.6"
@@ -157,26 +158,26 @@ projects[google_analytics][subdir] = "contrib"
 projects[helper][version] = "1.7"
 projects[helper][subdir] = "contrib"
 
-projects[inline_entity_form][version] = "1.x-dev"
+projects[inline_entity_form][version] = "1.8"
 projects[inline_entity_form][subdir] = "contrib"
 ; Limit 'Add new' bundle options when entityreference uses a view for selection
 ; @see https://drupal.org/node/1872316
 projects[inline_entity_form][patch][] = https://www.drupal.org/files/issues/1872316-ief-bundle-selection-erv-22_0.patch
 
-projects[libraries][version] = "2.2"
+projects[libraries][version] = "2.3"
 projects[libraries][subdir] = "contrib"
 
 projects[link][version] = "1.3"
 projects[link][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[media][version] = "2.x-dev"
+projects[media][version] = "2.19"
 projects[media][subdir] = "contrib"
 
-projects[menu_block][version] = "2.3"
+projects[menu_block][version] = "2.7"
 projects[menu_block][subdir] = "contrib"
 
-projects[migrate][version] = "2.6-rc1"
+projects[migrate][version] = "2.8"
 projects[migrate][subdir] = "contrib"
 ; Register migrations on module enable or disable
 ; @see https://drupal.org/node/2037265
@@ -231,7 +232,7 @@ projects[responsive_tables][subdir] = "contrib"
 projects[rules][version] = "2.3"
 projects[rules][subdir] = "contrib"
 
-projects[schema][version] = "1.2"
+projects[schema][version] = "1.23"
 projects[schema][subdir] = "contrib"
 
 projects[schemaorg][version] = "1.0-rc1"
@@ -240,19 +241,19 @@ projects[schemaorg][subdir] = "contrib"
 projects[schema_reference][version] = "1.0-beta5"
 projects[schema_reference][subdir] = "contrib"
 
-projects[search_api][version] = "1.23"
+projects[search_api][version] = "1.24"
 projects[search_api][subdir] = "contrib"
 
-projects[search_api_db][version] = "1.4"
+projects[search_api_db][version] = "1.6"
 projects[search_api_db][subdir] = "contrib"
 
-projects[search_api_ranges][version] = "1.4"
+projects[search_api_ranges][version] = "1.6"
 projects[search_api_ranges][subdir] = "contrib"
 
 projects[search_api_page][version] = "1.x-dev"
 projects[search_api_page][subdir] = "contrib"
 
-projects[select_or_other][version] = "2.18"
+projects[select_or_other][version] = "2.23"
 projects[select_or_other][subdir] = "contrib"
 ; Fix required select_or_other fields
 ; @see https://drupal.org/node/2030249#comment-7590279
