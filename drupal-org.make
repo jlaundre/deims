@@ -23,7 +23,7 @@ projects[autosave][subdir] = "contrib"
 projects[backup_migrate][version] = "3.5"
 projects[backup_migrate][subdir] = "contrib"
 
-projects[biblio][version] = "7.x-1.x-dev"
+projects[biblio][version] = "1.x-dev"
 projects[biblio][subdir] = "contrib"
 ; PHP7 compatiblity
 ; See https://www.drupal.org/node/1760736
@@ -72,7 +72,7 @@ projects[eck][patch][] = "https://www.drupal.org/files/issues/2018-07-31/eck-ent
 ; @see https://drupal.org/node/1979686
 projects[eck][patch][] = "http://drupal.org/files/1979686-eck-ief-clone-button.patch"
 
-projects[elements][version] = " "1.4+2-dev"
+projects[elements][version] = "1.5"
 projects[elements][subdir] = "contrib"
 
 projects[email][version] = "1.3"
@@ -203,7 +203,7 @@ projects[recaptcha][subdir] = "contrib"
 projects[responsive_tables][version] = "2.x-dev"
 projects[responsive_tables][subdir] = "contrib"
 
-projects[rules][version] = "2.3"
+projects[rules][version] = "1.3"
 projects[rules][subdir] = "contrib"
 
 projects[schema][version] = "1.23"
@@ -221,7 +221,7 @@ projects[search_api][subdir] = "contrib"
 projects[search_api_db][version] = "1.6"
 projects[search_api_db][subdir] = "contrib"
 
-projects[search_api_ranges][version] = "1.6"
+projects[search_api_ranges][version] = "1.5"
 projects[search_api_ranges][subdir] = "contrib"
 
 projects[search_api_page][version] = "1.x-dev"
