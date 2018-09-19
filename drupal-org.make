@@ -23,12 +23,11 @@ projects[autosave][subdir] = "contrib"
 projects[backup_migrate][version] = "3.5"
 projects[backup_migrate][subdir] = "contrib"
 
-projects[biblio][version] = "1.0-rc7"
+projects[biblio][version] = "7.x-1.x-dev"
 projects[biblio][subdir] = "contrib"
-; Biblio crossref module acquiring data using "GET" instead of POST
-; @see https://www.drupal.org/node/2168043
-; https://www.drupal.org/node/2168853
-projects[biblio][patch][] = "http://drupal.org/files/issues/biblio_crossref_GET_not_POST-UNKNOWN-0.patch"
+; PHP7 compatiblity
+; See https://www.drupal.org/node/1760736
+projects[biblio][patch][] = "https://www.drupal.org/files/issues/biblio-fix_php7_issues-2806971-19.patch"
 
 projects[captcha][version] = "1.3"
 projects[captcha][subdir] = "contrib"
@@ -41,22 +40,12 @@ projects[context][subdir] = "contrib"
 
 projects[chosen][version] = "2.1"
 projects[chosen][subdir] = "contrib"
-; Add support for the koenpunt fork of Chosen with supports adding options
-; @see https://drupal.org/node/2012900
-;not for the latest version- jiml
-;projects[chosen][patch][] = "http://drupal.org/files/issues/2012900-chosen-select-or-other_1.patch"
 
 projects[custom_breadcrumbs][version] = "2.0-beta1"
 projects[custom_breadcrumbs][subdir] = "contrib"
 
 projects[datatables][version] = "1.2"
 projects[datatables][subdir] = "contrib"
-; Correct errors blocking the install.
-; @see https://drupal.org/node/2021741
-projects[datatables][patch][] = "http://drupal.org/files/2021741-installation-blocked-database-errors-requirement-errors.patch"
-; Fix errors when headers are only strings
-; @see https://drupal.org/node/1904140#comment-7724631
-projects[datatables][patch][] = "http://drupal.org/files/1904140-datatables-fix-errors-when-headers-are-strings.patch"
 
 projects[date][version] = "2.10"
 projects[date][subdir] = "contrib"
@@ -74,11 +63,11 @@ projects[diff][subdir] = "contrib"
 projects[ds][version] = "2.16"
 projects[ds][subdir] = "contrib"
 
-projects[eck][version] = "2.0-rc2"
+projects[eck][version] = "2.0-rc9"
 projects[eck][subdir] = "contrib"
 ; Add entity access alter for ECK entities.
 ; @see https://drupal.org/node/1969394
-projects[eck][patch][] = "http://drupal.org/files/1969394-eck-entity-access-alter.patch"
+projects[eck][patch][] = "https://www.drupal.org/files/issues/2018-07-31/eck-entity_access_alter-1969394-39.patch"
 ; Add IEF clone button support
 ; @see https://drupal.org/node/1979686
 projects[eck][patch][] = "http://drupal.org/files/1979686-eck-ief-clone-button.patch"
@@ -131,11 +120,7 @@ projects[file_entity][subdir] = "contrib"
 
 projects[filefield_sources][version] = "1.11"
 projects[filefield_sources][subdir] = "contrib"
-; Show the actual attach upload path using drupal_realpath()
-; @see https://drupal.org/node/2033269
-;projects[filefield_sources][patch][] = "http://drupal.org/files/2033269-attach-realpath.patch"
 
-; @todo Change to 1.3 release when available.
 projects[field_group][version] = "1.6"
 projects[field_group][subdir] = "contrib"
 
@@ -145,9 +130,8 @@ projects[flag][subdir] = "contrib"
 projects[flexslider][version] = "2.0-alpha1"
 projects[flexslider][subdir] = "contrib"
 
-projects[geofield][version] = "1.2"
+projects[geofield][version] = "2.3"
 projects[geofield][subdir] = "contrib"
-projects[geofield][patch][] = http://www.drupal.org/files/geofield-sql-field-type-numeric-1456180-13.patch
 
 projects[geophp][version] = "1.7"
 projects[geophp][subdir] = "contrib"
@@ -170,24 +154,14 @@ projects[libraries][subdir] = "contrib"
 projects[link][version] = "1.3"
 projects[link][subdir] = "contrib"
 
-; Dave Reid maintains this, ok to use dev for now.
-projects[media][version] = "2.19"
+projects[media][version] = "2.20"
 projects[media][subdir] = "contrib"
 
 projects[menu_block][version] = "2.7"
 projects[menu_block][subdir] = "contrib"
 
-projects[migrate][version] = "2.8"
+projects[migrate][version] = "2.11"
 projects[migrate][subdir] = "contrib"
-; Register migrations on module enable or disable
-; @see https://drupal.org/node/2037265
-projects[migrate][patch][] = "http://drupal.org/files/2037265-migrate-static-registration-module-enable_0.patch"
-; Fix page titles and breadcrumbs in the UI
-; @see https://drupal.org/node/2040101
-projects[migrate][patch][] = "http://drupal.org/files/2040101-breadcrumb-titles.patch"
-; Fix preserve file type
-; @see https://drupal.org/node/2039649
-projects[migrate][patch][] = "http://drupal.org/files/issues/migrate.file-mimetype.2039649-14.patch"
 
 projects[migrate_d2d][version] = "2.x-dev"
 projects[migrate_d2d][subdir] = "contrib"
@@ -204,7 +178,7 @@ projects[name][subdir] = "contrib"
 projects[noggin][version] = "1.1"
 projects[noggin][subdir] = "contrib"
 
-projects[options_element][version] = "1.9"
+projects[options_element][version] = "1.12"
 projects[options_element][subdir] = "contrib"
 ; For empty values, only show two key/value fields instead of three
 ; @see https://drupal.org/node/2012198
@@ -253,11 +227,8 @@ projects[search_api_ranges][subdir] = "contrib"
 projects[search_api_page][version] = "1.x-dev"
 projects[search_api_page][subdir] = "contrib"
 
-projects[select_or_other][version] = "2.23"
+projects[select_or_other][version] = "2.24"
 projects[select_or_other][subdir] = "contrib"
-; Fix required select_or_other fields
-; @see https://drupal.org/node/2030249#comment-7590279
-projects[select_or_other][patch][] = "http://drupal.org/files/select_or_other_required-2030249-1.patch"
 
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "contrib"
@@ -279,7 +250,7 @@ projects[term_reference_tree][version] = "1.11"
 projects[term_reference_tree][subdir] = "contrib"
 ; Add filtering to the widget
 ; @see https://drupal.org/node/2007164
-projects[term_reference_tree][patch][] = "http://drupal.org/files/2007164-filter.patch"
+projects[term_reference_tree][patch][] = "https://www.drupal.org/files/issues/term_reference_tree-filter-2007164-4.patch"
 
 projects[token][version] = "1.6"
 projects[token][subdir] = "contrib"
