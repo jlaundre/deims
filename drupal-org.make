@@ -203,10 +203,10 @@ projects[recaptcha][subdir] = "contrib"
 projects[responsive_tables][version] = "2.x-dev"
 projects[responsive_tables][subdir] = "contrib"
 
-projects[rules][version] = "1.3"
+projects[rules][version] = "2.11"
 projects[rules][subdir] = "contrib"
 
-projects[schema][version] = "1.23"
+projects[schema][version] = "1.3"
 projects[schema][subdir] = "contrib"
 
 projects[schemaorg][version] = "1.0-rc1"
