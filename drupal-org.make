@@ -35,7 +35,7 @@ projects[captcha][subdir] = "contrib"
 projects[ctools][version] = "1.14"
 projects[ctools][subdir] = "contrib"
 
-projects[context][version] = "3.6"
+projects[context][version] = "3.7"
 projects[context][subdir] = "contrib"
 
 projects[chosen][version] = "2.1"
@@ -59,6 +59,9 @@ projects[devel][subdir] = "contrib"
 
 projects[diff][version] = "3.3"
 projects[diff][subdir] = "contrib"
+
+projects[drafty][version] = "1.0-rc1"
+projects[drafty][subdir] = "contrib"
 
 projects[ds][version] = "2.16"
 projects[ds][subdir] = "contrib"
@@ -93,7 +96,7 @@ projects[entityreference][subdir] = "contrib"
 projects[entity_view_mode][version] = "1.0-rc1"
 projects[entity_view_mode][subdir] = "contrib"
 
-projects[extlink][version] = "1.18"
+projects[extlink][version] = "1.20"
 projects[extlink][subdir] = "contrib"
 
 projects[facetapi][version] = "1.5"
@@ -115,7 +118,7 @@ projects[file_download_count][version] = "1.0-rc1"
 projects[file_download_count][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[file_entity][version] = "2.12"
+projects[file_entity][version] = "2.22"
 projects[file_entity][subdir] = "contrib"
 
 projects[filefield_sources][version] = "1.11"
@@ -139,7 +142,7 @@ projects[geophp][subdir] = "contrib"
 projects[google_analytics][version] = "2.1"
 projects[google_analytics][subdir] = "contrib"
 
-projects[helper][version] = "1.7"
+projects[helper][version] = "1.9"
 projects[helper][subdir] = "contrib"
 
 projects[inline_entity_form][version] = "1.8"
@@ -148,10 +151,10 @@ projects[inline_entity_form][subdir] = "contrib"
 ; @see https://drupal.org/node/1872316
 projects[inline_entity_form][patch][] = https://www.drupal.org/files/issues/1872316-ief-bundle-selection-erv-22_0.patch
 
-projects[libraries][version] = "2.3"
+projects[libraries][version] = "2.4"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.3"
+projects[link][version] = "1.5"
 projects[link][subdir] = "contrib"
 
 projects[media][version] = "2.20"
@@ -169,10 +172,10 @@ projects[migrate_d2d][subdir] = "contrib"
 projects[migrate_extras][version] = "2.x-dev"
 projects[migrate_extras][subdir] = "contrib"
 
-projects[module_filter][version] = "2.0"
+projects[module_filter][version] = "2.1"
 projects[module_filter][subdir] = "contrib"
 
-projects[name][version] = "1.9"
+projects[name][version] = "1.10"
 projects[name][subdir] = "contrib"
 
 projects[noggin][version] = "1.1"
@@ -189,9 +192,6 @@ projects[options_element][patch][] = "http://drupal.org/files/2045091-manual-ent
 
 projects[pathauto][version] = "1.3"
 projects[pathauto][subdir] = "contrib"
-
-projects[pathauto_persist][version] = "1.4"
-projects[pathauto_persist][subdir] = "contrib"
 
 projects[print][version] = "2.0"
 projects[print][subdir] = "contrib"
@@ -215,10 +215,10 @@ projects[schemaorg][subdir] = "contrib"
 projects[schema_reference][version] = "1.0-beta5"
 projects[schema_reference][subdir] = "contrib"
 
-projects[search_api][version] = "1.24"
+projects[search_api][version] = "1.25"
 projects[search_api][subdir] = "contrib"
 
-projects[search_api_db][version] = "1.6"
+projects[search_api_db][version] = "1.7"
 projects[search_api_db][subdir] = "contrib"
 
 projects[search_api_ranges][version] = "1.5"
@@ -252,7 +252,7 @@ projects[term_reference_tree][subdir] = "contrib"
 ; @see https://drupal.org/node/2007164
 projects[term_reference_tree][patch][] = "https://www.drupal.org/files/issues/term_reference_tree-filter-2007164-4.patch"
 
-projects[token][version] = "1.6"
+projects[token][version] = "1.7"
 projects[token][subdir] = "contrib"
 
 projects[token_field][version] = "1.x-dev"
@@ -265,10 +265,10 @@ projects[token_formatters][subdir] = "contrib"
 projects[url][version] = "1.x-dev"
 projects[url][subdir] = "contrib"
 
-projects[views][version] = "3.18"
+projects[views][version] = "3.20"
 projects[views][subdir] = "contrib"
 
-projects[views_bulk_operations][version] = "3.3"
+projects[views_bulk_operations][version] = "3.5"
 projects[views_bulk_operations][subdir] = "contrib"
 
 projects[views_content_cache][version] = "3.0-alpha3"
@@ -280,10 +280,10 @@ projects[webform][subdir] = "contrib"
 projects[workbench][version] = "1.2"
 projects[workbench][subdir] = "contrib"
 
-projects[workbench_access][version] = "1.4"
+projects[workbench_access][version] = "1.5"
 projects[workbench_access][subdir] = "contrib"
 
-projects[workbench_moderation][version] = "1.4"
+projects[workbench_moderation][version] = "3.0"
 projects[workbench_moderation][subdir] = "contrib"
 ; Show revision log message in the workbench message menu_block
 ; @see https://drupal.org/node/1972888
@@ -295,17 +295,17 @@ projects[workbench_email][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = "contrib"
 
-projects[wysiwyg_linebreaks][version] = "1.7"
+projects[wysiwyg_linebreaks][version] = "1.8"
 projects[wysiwyg_linebreaks][subdir] = "contrib"
 
 ; -----------------------------------------------------------------------------
 ; Contributed themes
 ; -----------------------------------------------------------------------------
 
-projects[adaptivetheme][version] = "3.2"
+projects[adaptivetheme][version] = "3.4"
 projects[adaptivetheme][subdir] = "contrib"
 
-projects[pixture_reloaded][version] = "3.0"
+projects[pixture_reloaded][version] = "3.1"
 projects[pixture_reloaded][subdir] = "contrib"
 
 projects[shiny][version] = "1.3"
@@ -316,7 +316,7 @@ projects[shiny][subdir] = "contrib"
 ; -----------------------------------------------------------------------------
 
 libraries[ckeditor][download][type]= "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.zip"
+libraries[ckeditor][download][url] = "https://download.cksource.com/CKEditor/CKEditor/CKEditor%204.10.1/ckeditor_4.10.1_standard.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[flexslider][download][type] = "get"
