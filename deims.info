@@ -82,7 +82,6 @@ dependencies[] = module_filter
 dependencies[] = name
 dependencies[] = options_element
 dependencies[] = pathauto
-dependencies[] = pathauto_persist
 dependencies[] = print
 dependencies[] = print_ui
 dependencies[] = responsive_tables
@@ -133,3 +132,8 @@ dependencies[] = deims_views
 dependencies[] = eml
 dependencies[] = eml_harvest_list
 dependencies[] = iso
+; Information added by Drupal.org packaging script on 2016-06-22
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "deims"
+datestamp = "1466598314"
