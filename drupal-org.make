@@ -130,7 +130,7 @@ projects[field_group][subdir] = "contrib"
 projects[flag][version] = "3.0-rc1"
 projects[flag][subdir] = "contrib"
  
-projects[flexslider][version] = "2.0-alpha1"
+projects[flexslider][version] = "2.0-rc2"
 projects[flexslider][subdir] = "contrib"
 
 projects[geofield][version] = "2.3"
@@ -308,7 +308,7 @@ projects[adaptivetheme][subdir] = "contrib"
 projects[pixture_reloaded][version] = "3.1"
 projects[pixture_reloaded][subdir] = "contrib"
 
-projects[shiny][version] = "1.3"
+projects[shiny][version] = "1.7"
 projects[shiny][subdir] = "contrib"
 
 ; -----------------------------------------------------------------------------
